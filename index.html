@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/fontawe/fontawesome-free-6.0.0-web/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Login</title>
+</head>
+<body>
+
+  <main class="container">
+    <h1>Login</h1>
+    <form>
+      <div class="input-field">
+        <input type="email" id="username" name="username" placeholder="Enter your username" required><!--<i id="good" class="fa-solid fa-circle-check"></i>-->
+        <div class="underline"></div>
+      </div>
+      <div class="input-field">
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><!--<i id="bad" class="fa-solid fa-circle-xmark"></i>-->
+        <div class="underline"></div>
+      </div>
+      <input onclick="enviar()" type="submit" value="Continue">
+    </form>
+
+  <div class="footer">
+    <span>Or Connect with Social Media</span>
+    <div class="social-fields">
+      <div class="social-field twiter">
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+          Sign in with Twitter
+        </a>
+      </div>
+      <div class="social-field facebook">
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+          Sign in with Facebook
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
